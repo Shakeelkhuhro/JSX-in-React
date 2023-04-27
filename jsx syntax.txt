@@ -1,0 +1,19 @@
+JSX Syntax is a syntax extension to JavaScript that allows developers 
+to write HTML-like code in their JavaScript files. It is a key feature of 
+React that makes it easy to create React elements and compose them together to 
+create a user interface. Instead of writing separate JavaScript and HTML files, 
+JSX allows developers to write both in the same file, making the code more readable 
+and easier to maintain. JSX gets compiled into regular JavaScript by a build tool like 
+Babel before being rendered in the browser.
+
+JSX is strict HTML
+It reolaces
+    Class to className
+    For to htmlFor
+it return only one tag i-e it must be enclose in one tag only
+we can use JS in curely braces 
+    i-e <h1> Hello {name} <h1>
+Don't use unterminated tags i-e if u want to use self closing tag, terminate it as follows
+    <img src='' alt="" />
+
+It Takes External HTML as it is.
